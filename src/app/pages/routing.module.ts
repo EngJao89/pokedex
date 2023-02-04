@@ -6,11 +6,11 @@ import { DetailsComponent } from './details/details.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: HomeComponent
   },
   {
-    path:'details',
+    path: 'details/:id',
     component: DetailsComponent
   }
 ];
